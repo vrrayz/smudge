@@ -94,12 +94,30 @@ header.header-fixed .navbar-brand img {
 }
 .team-box {
     background: #444041;
+    color: #fff;
+}
+.team-box h3.member-name, .team-part h2, .team-part span, .contact-part .main_title, .contact-part span{
+    color: #fff !important;
 }
 .team-box:hover {
     background: #252323;
 }
 .team-box .social-media ul li a i.fa {
     color: #786c6f;
+}
+.contact-part .form-detail .form-control {
+    background: #444041;
+    color: #fff;
+}
+.btn-white {
+    color: #343132;
+}
+.btn-white:hover {
+    color: #fff;
+    background-color: #1e1c1d;
+}
+.v-row, .h-border, .small-round{
+    background-color: #696163;
 }
 @media (max-width: 991px) {
     header {
