@@ -1,0 +1,124 @@
+body {
+    color: #000;
+    background-color: #fff;
+}
+
+.banner-detail .banner-detail-inner .banner-title {
+    color: #000;
+}
+
+header.header-fixed {
+    background: #444041;
+}
+
+.btn-color {
+    background: #444041;
+}
+
+.about-part {
+    background: #343132;
+    color: #fff;
+}
+
+.navbar-nav li>a {
+    color: #343132;
+}
+
+header.header-fixed a {
+    color: #fff;
+}
+
+.heading-part>span {
+    color: #1b1919;
+}
+
+.services-box .frontend,
+.services-box .backend {
+    background: #343132;
+    color: #fff;
+}
+
+.tokensale-part {
+    background: url(../images/images-token-sale-bg.png) center 0px no-repeat scroll #343132;
+}
+
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header.header-fixed .navbar-brand img {
+    content: url("/images/sm1w.png");
+}
+.about-part .aboutus-detail ul li::before {
+    background-image: url(/images/mark.png);
+    height: 39px;
+    width: 39px;
+}
+.donut {
+    color: #fff;
+}
+.tokensale-part .tokensale-detail ul li {
+    font-size: 16px;
+    color: #FFF;
+    position: relative;
+    line-height: 42px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+.date-title {
+    color: #282c2c;
+    width: 100%;
+}
+.nav-tabs > li > a.selected, .nav-tabs > li > a.selected:hover, .nav-tabs > li > a.selected:focus {
+    border: 2px solid #343132;
+    background: #343132;
+    color: #fff !important;
+}
+.faq-part .nav > li > a {
+    border: 2px solid #343132;
+   color: #343132;
+}
+.accordion-box {
+    background: #343132;
+}
+.accordion-box > .collapse, .accordion-box > .collapsing {
+    color: #fff;
+    /* margin-top: 12px; */
+}
+.contact-part {
+    background: url(/images/images-contact-bg.png) 0px 0px no-repeat scroll #343132;
+}
+.team-part {
+    background: url(/images/images-team-bg.png) no-repeat scroll center center #343132;
+}
+.team-box {
+    background: #444041;
+}
+.team-box:hover {
+    background: #252323;
+}
+.team-box .social-media ul li a i.fa {
+    color: #786c6f;
+}
+@media (max-width: 991px) {
+    header {
+        background: #444041;
+    }
+
+    header .navbar-brand img {
+        content: url("/images/sm1w.png");
+    }
+
+    .navbar-nav li>a {
+        color: #fff;
+    }
+
+    #menu {
+        background: #444041;
+    }
+
+    .navbar-nav>li {
+        border-bottom: 1px solid #72686c;
+    }
+}
